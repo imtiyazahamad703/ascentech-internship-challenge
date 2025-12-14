@@ -138,5 +138,20 @@ http://localhost:5173
 
 ---
 
+Screenshots:
+<img width="1851" height="981" alt="image" src="https://github.com/user-attachments/assets/c445d02f-f691-4696-9dc2-2fe9de322b15" />
+<img width="1783" height="1066" alt="image" src="https://github.com/user-attachments/assets/a5fca844-215e-470d-8d61-f95ae2bd6d01" />
+<img width="1799" height="1079" alt="image" src="https://github.com/user-attachments/assets/de3d40c9-dd05-4bd0-997a-87303ff6731c" />
+<img width="1811" height="1079" alt="image" src="https://github.com/user-attachments/assets/a21616c2-195f-4663-99e3-ec5ae04f26cd" />
+<img width="1784" height="1079" alt="image" src="https://github.com/user-attachments/assets/f364e0d2-dc53-4a2c-812a-631849a3706e" />
+<img width="1841" height="1079" alt="image" src="https://github.com/user-attachments/assets/1d1a8780-6d5d-4a93-8dd4-c0e7e16d2049" />
+
+
+
+
+
+
+
+---
 ## Author
 Imtiyaz Ahamad
