@@ -13,8 +13,8 @@ model Booking {
   email           String   @unique
   mobile          String   @unique
   hallName        String
-  startDate       DateTime
-  endDate         DateTime
+  startDate       DateTime @db.Date
+  endDate         DateTime @db.Date
   bookingType     String
   timeSlot        String
   rent            Int
@@ -23,5 +23,6 @@ model Booking {
   remark          String?
 
   createdAt DateTime @default(now())
+  @@map("booking")
 }
 
