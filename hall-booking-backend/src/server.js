@@ -1,5 +1,7 @@
 const express = require("express");
 const cors = require("cors");
+require("dotenv").config();
+
 
 const bookingRoutes = require("./routes/booking_routes");
 
@@ -10,7 +12,7 @@ app.use(express.json());
 
 app.use("/bookings", bookingRoutes);
 
-const PORT = 5000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
