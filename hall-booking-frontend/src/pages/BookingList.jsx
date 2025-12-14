@@ -1,6 +1,10 @@
 import {useEffect,useState} from "react";
 import {useNavigate} from "react-router-dom";
 import {getBookings,deleteBooking} from "../api/bookingApi";
+import "../styles/common.css";
+import "../styles/bookingList.css";
+
+
 
 function BookingList(){
   const [bookings,setBookings]=useState([]);
@@ -25,7 +29,8 @@ function BookingList(){
   };
 
   return(
-    <div>
+    <div className="table-page">
+    <div className="table-container">
       <h2>Hall Booking List</h2>
 
       <button onClick={()=>navigate("/create")}>
@@ -70,7 +75,7 @@ function BookingList(){
               <td>{b.rent}</td>
               <td>{b.additionalCharge}</td>
               <td>{b.status}</td>
-              <td>{b.remark}</td>
+              <td className="remark-cell">{b.remark}</td>
               <td>
                 <button onClick={()=>navigate(`/edit/${b.id}`)}>
                   Edit
@@ -83,6 +88,7 @@ function BookingList(){
           ))}
         </tbody>
       </table>
+    </div>
     </div>
   );
 }
